@@ -1,0 +1,6 @@
+{
+    "jscodehints.detectedExclusions": [
+        "D:/Development/Learning/PhoneGap/ngCordovaPlugins/LocalNotification/www/js/services.js",
+        "D:/Development/Learning/PhoneGap/ngCordovaPlugins/LocalNotification/www/js/app.js"
+    ]
+}
