@@ -86,7 +86,7 @@ angular.module('localNotifyApp', ['ionic', 'localNotifyApp.controllers', 'localN
 var app = angular.module('NotifyApp', ['ionic', 'ngCordova']);
 
 app.controller('NotifyCtrl', function($scope, $ionicPlatform, $cordovaLocalNotification) {
-    alert("HI");
+    alert("HI v0.0.1");
     $ionicPlatform.ready(function () {
         
         console.log("hi");
