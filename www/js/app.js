@@ -88,6 +88,7 @@ var app = angular.module('NotifyApp', ['ionic', 'ngCordova']);
 app.controller('NotifyCtrl', function($scope, $ionicPlatform, $cordovaLocalNotification) {
     alert("HI v0.0.1");
     $ionicPlatform.ready(function () {
+        try {
         $cordovaLocalNotification.add({message: 'Hello Local Notification'}) ;
         var db = windows.sqllitePlugin.openDatabase({name: "phonegap.db", location: 1 });
         db.transaction(function (tx){
@@ -111,5 +112,10 @@ app.controller('NotifyCtrl', function($scope, $ionicPlatform, $cordovaLocalNotif
         }, function(e) {
             alert("Error: "+ e.message);
         });
+        }
+        catch(e)
+        {
+            alert(e);
+        }
     });
 });
