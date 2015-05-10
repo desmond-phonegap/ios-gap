@@ -18,6 +18,9 @@
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
+  <plugins>
+      <plugin name="SQLitePlugin" value="SQLitePlugin" />
+  </plugins>
   <cdv:plugin name="de.appplant.cordova.plugin.local-notification"/>
   <platform name="android">
     <icon src="resources/android/icon/drawable-ldpi-icon.png" density="ldpi"/>

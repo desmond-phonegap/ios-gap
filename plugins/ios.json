@@ -21,6 +21,10 @@
                             "count": 1
                         },
                         {
+                            "xml": "<feature name=\"SQLitePlugin\"><param name=\"ios-package\" value=\"SQLitePlugin\" /></feature>",
+                            "count": 1
+                        },
+                        {
                             "xml": "<feature name=\"Console\"><param name=\"ios-package\" value=\"CDVLogger\" /></feature>",
                             "count": 1
                         }
@@ -34,6 +38,9 @@
             "PACKAGE_NAME": "com.ionicframework.localnotification170135"
         },
         "de.appplant.cordova.plugin.local-notification": {
+            "PACKAGE_NAME": "com.ionicframework.localnotification170135"
+        },
+        "io.litehelpers.cordova.sqlite": {
             "PACKAGE_NAME": "com.ionicframework.localnotification170135"
         },
         "org.apache.cordova.console": {
