@@ -91,6 +91,19 @@ app.controller('NotifyCtrl', function($scope, $ionicPlatform, $cordovaLocalNotif
         try {
             $cordovaLocalNotification.add({message: 'Hello Local Notification'}) ; 
             alert("HI Pinka");
+            
+            var device = $cordovaDevice.getDevice();
+            alert(device);
+            var cordova = $cordovaDevice.getCordova();
+alert(cordova);
+            var model = $cordovaDevice.getModel();
+alert(model);
+            var platform = $cordovaDevice.getPlatform();
+alert(platform);
+            var uuid = $cordovaDevice.getUUID();
+alert(uuid);
+            var version = $cordovaDevice.getVersion();
+alert(version);
 //            var db = windows.sqllitePlugin.openDatabase({name: "phonegap.db", location: 1 });
 //            db.transaction(function (tx){
 //                tx.executeSql('DROP TABLE IF EXISTS test_table') ;

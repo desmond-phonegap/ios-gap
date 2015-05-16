@@ -22,11 +22,5 @@
             "type": "registry",
             "id": "de.appplant.cordova.plugin.local-notification"
         }
-    },
-    "io.litehelpers.cordova.sqlite": {
-        "source": {
-            "type": "registry",
-            "id": "io.litehelpers.cordova.sqlite"
-        }
     }
 }
